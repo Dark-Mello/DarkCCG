@@ -9,7 +9,7 @@ total = input("Quantity? ")
 #Number To Generate
 number = int(total)
 file = (total + " Credit Cards.txt ")
-file2 = 'Cards.txt'
+file2 = 'Dark Cards.txt'
 mode = input("Chose Type \nMasterCard\nVisa\nAmex\nDiscover\n")
 #MasterCard
 if(mode == "MasterCard"):
@@ -35,7 +35,7 @@ if(mode == "MasterCard"):
         space1 = "|"
         month = str(randint(1, 12))
         space2 = "|"
-        year = str(randint(20,29))
+        year = str(randint(21,30))
         space3 = "|"
         generate17 = random.choice(gentype)
         generate18 = random.choice(gentype)
@@ -67,7 +67,7 @@ if(mode == "Visa"):
         space1 = "|"
         month = str(randint(1, 12))
         space2 = "|"
-        year = str(randint(20,29))
+        year = str(randint(21,30))
         space3 = "|"
         generate17 = random.choice(gentype)
         generate18 = random.choice(gentype)
@@ -99,7 +99,7 @@ if(mode == "Amex"):
         space1 = "|"
         month = str(randint(1, 12))
         space2 = "|"
-        year = str(randint(20,29))
+        year = str(randint(21,30))
         space3 = "|"
         generate17 = random.choice(gentype)
         generate18 = random.choice(gentype)
@@ -132,7 +132,7 @@ if(mode == "Discover"):
         space1 = "|"
         month = str(randint(1, 12))
         space2 = "|"
-        year = str(randint(20,29))
+        year = str(randint(21,30))
         space3 = "|"
         generate17 = random.choice(gentype)
         generate18 = random.choice(gentype)
